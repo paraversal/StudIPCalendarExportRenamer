@@ -1,16 +1,14 @@
 # StudIP Calendar Export Batch Renamer
 
-This program is a batch renamer for StudIP Calendar Exports.
-
 # Why?
 
-Because StudIP uses the very verbose, actual lecture name for calendar entries. For example: Introduction to Neurobiology is `Vorlesung: Introduction to Neurobiology - mit benotetem Leistungsnachweis [Klausur] für Studierende der "Cognitive Science" und für Studenten mit Nebenfach Biologie [BIO-SK]`. It's a mess! And while you can manually edit the ICS file to batch rename events, it's a hassle! So this is why this program exists.
+StudIP uses the very verbose, actual lecture name for calendar entries. For example: "Introduction to Neurobiology" is `Vorlesung: Introduction to Neurobiology - mit benotetem Leistungsnachweis [Klausur] für Studierende der "Cognitive Science" und für Studenten mit Nebenfach Biologie [BIO-SK]`. It's a mess! And while you can manually edit the ICS file to batch rename events, it's a hassle! With this program, you can choose a new name which will be applied to all lecture events of a certain lecture, thereby simplifying your calendar significantly, bringing peace and calm into your otherwise messy life.
 
 # Usage
 
 1. Download your calendar export (German: StudIP -> Planer -> Kalender -> Termine exportieren -> Alle Termine, English: StudIP -> Planner -> Calendar -> Export Dates -> All Dates)
 3. Make sure you have `uv` installed and in your PATH: `https://docs.astral.sh/uv/getting-started/installation/`
-2. `git clone https://github.com/paraversal/StudIPCalendarExportRenamer && cd StudIPCalendarExportRenamer`
+2. Run `git clone https://github.com/paraversal/StudIPCalendarExportRenamer && cd StudIPCalendarExportRenamer`
 4. Run `uv run main.py <filepath to the downloaded .ics file>`
 
 ## Inside the application
