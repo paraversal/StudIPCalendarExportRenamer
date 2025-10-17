@@ -607,6 +607,7 @@ dependencies = [
     { name = "rich" },
     { name = "textual" },
     { name = "textual-dev" },
+    { name = "textual-serve" },
 ]
 
 [package.metadata]
@@ -615,6 +616,7 @@ requires-dist = [
     { name = "rich", specifier = ">=14.2.0" },
     { name = "textual", specifier = ">=6.3.0" },
     { name = "textual-dev", specifier = ">=1.8.0" },
+    { name = "textual-serve", specifier = ">=1.1.2" },
 ]
 
 [[package]]

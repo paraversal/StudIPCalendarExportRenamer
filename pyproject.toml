@@ -9,4 +9,5 @@ dependencies = [
     "textual-dev>=1.8.0",
     "textual>=6.3.0",
     "rich>=14.2.0",
+    "textual-serve>=1.1.2",
 ]
